@@ -35,6 +35,9 @@ body {
   border-radius: 20px;
   justify-content: space-between;
 }
+.category_item img {
+  width: 100%;
+}
 .category_item span {
   margin-top: 25px;
   display: inline-block;
@@ -48,6 +51,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.category_column_item img {
+  width: 100%;
 }
 .category_column_item span {
   margin-top: 25px;

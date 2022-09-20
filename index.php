@@ -107,7 +107,7 @@
         </div>
       </div>
     </section>
-    <section class="vk_testimonials mt-50px d-flex">
+    <section class="vk_testimonials gap-15px mt-50px d-flex">
       <div class="vk_testimonials_item">
         <div class="person d-flex">
           <div class="person-img">
