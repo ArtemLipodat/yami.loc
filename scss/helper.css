@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.d-flex {
+  display: flex;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.gap-15px {
+  gap: 15px;
+}
+
+.gap-30px {
+  gap: 30px;
+}
+
+.float-r {
+  float: right;
+}
+
+.border-radius-20px {
+  border-radius: 20px;
+}
+
+.pl-50px {
+  padding-left: 50px;
+}
+
+.pr-50px {
+  padding-right: 50px;
+}
+
+.text-r {
+  text-align: right;
+}
+
+.text-c {
+  text-align: center;
+}
+
+.mt-30px {
+  margin-top: 30px;
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #000000;
+}
+
+.section-p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.silver {
+  color: #A4ACAD;
+}
+
+.arrow {
+  position: relative;
+}
+.arrow::before {
+  content: " ";
+  background: url("../image/arrow.svg") no-repeat center center;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: -40px;
+}/*# sourceMappingURL=helper.css.map */

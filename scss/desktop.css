@@ -1,0 +1,125 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.h-730px {
+  height: 730px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_soc_icon {
+  display: flex;
+  gap: 15px;
+}
+
+.category_item {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.category_item span {
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.category_column_item {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.category_column_item span {
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.category_column_item_f {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.category_column_item_f span {
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.category_column_item_f img {
+  border-radius: 20px;
+}
+
+.vk_testimonials {
+  justify-content: space-between;
+}
+.vk_testimonials_item {
+  width: 360px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 50px 25px;
+}
+.vk_testimonials_item .person {
+  border-bottom: 1px solid #5B6D9C;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+.vk_testimonials_item .person-img {
+  border-radius: 50%;
+  border: none;
+}
+
+.footer {
+  background: #5B6D9C;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer_phone {
+  align-items: center;
+}
+.footer_phone_tel a {
+  font-weight: 800;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer_copyright {
+  margin-top: 80px;
+}
+.footer_copyright span {
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.footer_menu_link {
+  list-style: none;
+}
+.footer_menu_link a {
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+}/*# sourceMappingURL=desktop.css.map */
