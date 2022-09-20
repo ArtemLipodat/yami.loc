@@ -98,6 +98,85 @@ body {
   border: none;
 }
 
+.good_detail_photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail_photo img {
+  border-radius: 40px;
+  border: 1px solid #000000;
+  width: 80%;
+}
+.good_detail_info {
+  padding-bottom: 50px;
+  border-bottom: 3px solid #5B6D9C;
+  width: 80%;
+}
+.good_detail_info .name {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.good_detail_info .weight {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.good_detail_info .consist span {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.good_detail_info .consist div {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.good_detail_info .kbju_item span {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.good_detail_info .kbju_item div {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 5px;
+}
+.good_detail .quantity {
+  background: #CAD9FF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+.good_detail .quantity span {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  padding-right: 15px;
+  margin-right: 10px;
+  border-right: 1px solid #5B6D9C;
+}
+.good_detail .quantity div {
+  display: inline;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.good_detail .quantity button {
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+  padding: 5px;
+}
+
 .footer {
   background: #5B6D9C;
   padding-top: 70px;

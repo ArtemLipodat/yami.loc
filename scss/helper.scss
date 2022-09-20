@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+
+#lipodat_company{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .d-flex{
   display: flex;
 }
 
 .j-c-c{
   justify-content: center;
+}
+
+.j-c-s-b{
+  justify-content: space-between;
 }
 
 .column{
@@ -67,6 +77,10 @@
 
 .text-c{
   text-align: center;
+}
+
+.mt-10px{
+  margin-top: 10px;
 }
 
 .mt-30px{
