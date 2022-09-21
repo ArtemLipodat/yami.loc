@@ -43,6 +43,12 @@
   width: 33%;
 }
 
+@media (max-width: 600px) {
+  .w-100-m {
+      width: 100%;
+    }
+}
+
 
 .order-1{
   order: 1;
