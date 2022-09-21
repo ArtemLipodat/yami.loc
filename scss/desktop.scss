@@ -189,6 +189,44 @@ body{
   }
 }
 
+.goods_list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+  grid-gap: 1em;
+  &_item{
+    width: 320px;
+    img{
+      width: 320px;
+      border-radius: 20px;
+      border: 1px solid #000000;
+    }
+    .name{
+      a{
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+    .desc{
+      a{
+        font-weight: 300;
+        font-size: 16px;
+        color:#000000;
+        text-decoration: none;
+      }
+    }
+    .price{
+      span{
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+  }
+}
+
 .footer{
   background: #5B6D9C;
   padding-top: 70px;

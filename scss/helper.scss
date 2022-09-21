@@ -18,6 +18,10 @@
   justify-content: space-between;
 }
 
+.a-i-c{
+  align-items: center;
+}
+
 .column{
   flex-direction: column;
 }
@@ -126,5 +130,22 @@
     position: absolute;
     top: 0;
     left: -40px;
+  }
+}
+
+.addToCart{
+  display: flex;
+  background: none;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  svg{
+    margin-left: 5px;
   }
 }

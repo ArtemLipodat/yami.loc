@@ -177,6 +177,38 @@ body {
   padding: 5px;
 }
 
+.goods_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+  grid-gap: 1em;
+}
+.goods_list_item {
+  width: 320px;
+}
+.goods_list_item img {
+  width: 320px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+.goods_list_item .name a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.goods_list_item .desc a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+.goods_list_item .price span {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
 .footer {
   background: #5B6D9C;
   padding-top: 70px;
