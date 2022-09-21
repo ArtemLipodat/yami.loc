@@ -185,6 +185,8 @@ body {
 }
 .goods_list_item {
   width: 320px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .goods_list_item img {
   width: 320px;

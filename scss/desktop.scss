@@ -196,6 +196,8 @@ body{
   grid-gap: 1em;
   &_item{
     width: 320px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     img{
       width: 320px;
       border-radius: 20px;

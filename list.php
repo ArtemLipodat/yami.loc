@@ -3,13 +3,13 @@
 <main id="lipodat_company">
   <div class="container">
     <div class="goods_list">
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,13 +19,13 @@
           </button>
         </div>
       </div>
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,13 +35,13 @@
           </button>
         </div>
       </div>
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,13 +51,13 @@
           </button>
         </div>
       </div>
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,13 +67,13 @@
           </button>
         </div>
       </div>
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,13 +83,13 @@
           </button>
         </div>
       </div>
-      <div class="goods_list_item">
+      <div class="goods_list_item hvr-shadow-radial">
         <div class="photo"><a href=""><img src="./image/list.png" alt=""></a></div>
         <div class="name mt-10px"><a href="">сет Пекин</a></div>
         <div class="desc mt-10px"><a href="">филадельфия лайт, ролл немо,хот с окунем, чикен хот, запеченные маки с томатами, запеченные маки с курицей</a></div>
         <div class="price d-flex j-c-s-b mt-10px a-i-c">
           <span>690₽</span>
-          <button class="addToCart">
+          <button class="addToCart hvr-sweep-to-left">
             <span>В КОРЗИНУ</span>
             <span>
               <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
