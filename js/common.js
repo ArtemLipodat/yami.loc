@@ -8,3 +8,5 @@ $('#close').on('click', function() {
 $('#drop a').on('click', function() {
   $('#drop').toggleClass('animate');
 })
+
+$("#modal").iziModal();

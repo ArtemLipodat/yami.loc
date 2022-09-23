@@ -12,9 +12,11 @@
   <link rel="stylesheet" href="./scss/peppermint.suggested.css">
   <link rel="stylesheet" href="./scss/owl.carousel.min.css">
   <link rel="stylesheet" href="./scss/owl.theme.default.css">
+  <link rel="stylesheet" href="../scss/iziModal.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/iziModal.min.js"></script>
   <script src="./js/owl.carousel.min.js"></script>
   <script src="./js/peppermint.min.js"></script>
   <title>Yami18</title>

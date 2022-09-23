@@ -94,6 +94,10 @@
   .footer_menu_link a {
     font-size: 14px;
   }
+  .footer_v img {
+    width: 60px;
+    bottom: 10px;
+  }
   .drop_menu {
     padding: 20px 30px;
   }

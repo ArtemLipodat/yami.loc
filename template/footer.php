@@ -31,7 +31,35 @@
       </div>
     </div>
   </div>
+  <div class="footer_v">
+    <img src="./image/footer_v.svg" alt="">
+  </div>
 </footer>
+	
+<a href="#" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown">Modal</a>
+<div id="modal">
+  <div class="popup">
+    <div class="d-flex j-c-s-b">
+      <img src="./image/popup_2.png" alt="">
+      <a onclick="javascript:$('#modal').iziModal('close');">
+        <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1.19775" y="19.4872" width="28" height="5" rx="2.5" transform="rotate(-44.1045 1.19775 19.4872)" fill="#1C1C1C"/>
+          <rect x="4.35999" y="0.393677" width="28" height="5" rx="2.5" transform="rotate(42.5115 4.35999 0.393677)" fill="#1C1C1C"/>
+        </svg>
+      </a>
+    </div>
+    <div class="d-flex column a-i-c mt-30px">
+      <span>Товар успешно добавлен в корзину</span>
+      <svg class="mt-10px" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 10L12 4L17 10H7ZM21 10L19 18C18.9065 18.5732 18.6552 19.0872 18.2897 19.4527C17.9243 19.8181 17.4679 20.0118 17 20H7C6.53211 20.0118 6.07572 19.8181 5.71028 19.4527C5.34485 19.0872 5.0935 18.5732 5 18L3 10H21Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="d-flex j-c-e">
+      <img class="float-r" src="./image/popup_1.png" alt="">
+    </div>
+  </div>
+</div>
 </body>
 <script src="./js/common.js"></script>
 </html>

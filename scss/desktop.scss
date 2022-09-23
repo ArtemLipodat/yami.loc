@@ -9,6 +9,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-family: $font-family;
+  scroll-behavior: smooth;
 }
 
 .container{
@@ -329,6 +330,7 @@ body,
 }
 
 .footer{
+  position: relative;
   background: #5B6D9C;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -359,5 +361,27 @@ body,
       color: #FFFFFF;
       text-decoration: none;
     }
+  }
+  &_v{
+    img{
+      position: absolute;
+      right: 0;
+      bottom: 50px;
+    }
+  }
+}
+.popup{
+  padding: 20px 20px;
+  background: #FDCACA;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  span{
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
   }
 }
