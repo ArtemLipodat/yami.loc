@@ -103,7 +103,7 @@
           <p class="section-p">Вы можете оставить свой отзыв в нашей группе в контакте, а так же увидеть последние новости, фото и видео</p>
         </div>
         <div class="w-40">
-          <img class="float-r" src="./image/vk.svg" alt="">
+          <a href="https://vk.com/yamiyami_18" target="_blank"><img class="float-r" src="./image/vk.svg" alt=""></a>
         </div>
       </div>
     </section>
