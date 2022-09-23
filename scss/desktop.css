@@ -11,6 +11,7 @@ body,
   padding: 0 50px;
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 .h-730px {
@@ -84,7 +85,6 @@ body,
   justify-content: space-between;
 }
 .vk_testimonials_item {
-  width: 360px;
   border: 1px solid #000000;
   border-radius: 20px;
   padding: 50px 25px;
@@ -210,9 +210,6 @@ body,
   color: #000000;
 }
 
-.shop-cart {
-  height: 100vh;
-}
 .shop-cart-item {
   display: flex;
   justify-content: space-between;
@@ -250,6 +247,30 @@ body,
   color: #000000;
   cursor: pointer;
   padding: 5px;
+}
+
+.chekout {
+  display: flex;
+  justify-content: center;
+}
+.chekout a {
+  background: #FDCACA;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 20px 70px;
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.shopBag_icon {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+  z-index: 10;
 }
 
 .drop_menu {

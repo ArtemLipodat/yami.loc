@@ -22,6 +22,9 @@
         <div class="photo"><img src="./image/good_detail.png" alt=""></div>
       </div>
     </div>
+    <div class="chekout">
+        <a href="">Оформить заказ</a>
+      </div>
   </div>
 </main>
 

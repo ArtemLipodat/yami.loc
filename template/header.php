@@ -10,7 +10,12 @@
   <link rel="stylesheet" href="./scss/hover.css">
   <link rel="stylesheet" href="./scss/peppermint.required.css">
   <link rel="stylesheet" href="./scss/peppermint.suggested.css">
+  <link rel="stylesheet" href="./scss/owl.carousel.min.css">
+  <link rel="stylesheet" href="./scss/owl.theme.default.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
   <script src="./js/peppermint.min.js"></script>
   <title>Yami18</title>
 </head>
@@ -41,7 +46,7 @@
         <div class="mt-50px pb-50px volny">
           <img src="./image/volny.png" alt="">
         </div>
-      </div>
+    </div>
     <header class="header">
       <div id="menu" class="header_munu">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
