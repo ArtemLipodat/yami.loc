@@ -55,8 +55,13 @@ body,
   flex-direction: column;
   justify-content: space-between;
 }
+.category_column_item .photo {
+  width: 70%;
+}
 .category_column_item img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .category_column_item span {
   margin-top: 25px;
@@ -64,22 +69,6 @@ body,
   font-weight: 500;
   font-size: 40px;
   color: #000000;
-}
-.category_column_item_f {
-  border: 1px solid #000000;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-.category_column_item_f span {
-  margin-top: 25px;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 40px;
-  color: #000000;
-}
-.category_column_item_f img {
-  border-radius: 20px;
 }
 
 .vk_testimonials {

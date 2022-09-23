@@ -36,32 +36,38 @@
         </div>
       </a>
     </section>
-    <section data-aos="fade-up" class="categoty_columm d-flex gap-30px mt-30px h-730px">
-      <div class="w-33 d-flex column gap-30px">
-        <a class="category_column_item h-50">
-          <span class="text-c">Горячие роллы</span>
-          <div><img src="./image/category/003.png" alt=""></div>
-        </a>
-        <a style="background: #FDCACA;" class="category_column_item h-50">
-          <span class="pl-50px">Закуски</span>
-          <div class="d-flex j-c-c"><img src="./image/category/006.png" alt=""></div>
-        </a>
-      </div>
-      <div class="w-33 d-flex column">
-        <a class="category_column_item">
-          <span class="text-r pr-50px">Сеты</span>
-          <div class="d-flex j-c-c"><img src="./image/category/005.png" alt=""></div>
-        </a>
-      </div>
-      <div class="w-33 d-flex column gap-30px">
-        <a style="background: #CAD9FF;" class="category_column_item h-50">
-          <span class="text-c">Суши и гунканы</span>
-          <div class="d-flex j-c-c"><img src="./image/category/004.png" alt=""></div>
-        </a>
-        <a class="category_column_item h-50">
-          <span class="pl-50px">Напитки</span>
-          <div><img style="width: 230px; float:right;" src="./image/category/007.png" alt=""></div>
-        </a>
+    <section data-aos="fade-up" class="mt-30px">
+      <div class="d-flex m-column gap-30px">
+        <div class="d-flex gap-30px w-66">
+          <div class="w-50 d-flex column gap-30px">
+            <a class="category_column_item h-50">
+              <span class="text-c">Горячие роллы</span>
+              <div class="photo"><img src="./image/category/003.png" alt=""></div>
+            </a>
+            <a style="background: #FDCACA;" class="category_column_item h-50">
+              <span class="pl-50px">Закуски</span>
+              <div class="photo"><img src="./image/category/006.png" alt=""></div>
+            </a>
+          </div>
+          <div class="w-50 d-flex column">
+            <a class="category_column_item" style="height: 100%;">
+              <span class="text-r pr-50px">Сеты</span>
+              <div class="d-flex j-c-c"><img src="./image/category/005.png" alt=""></div>
+            </a>
+          </div>
+        </div>
+        <div class="w-33">
+          <div class="d-flex column gap-30px">
+            <a style="background: #CAD9FF;" class="category_column_item h-50">
+              <span class="text-c">Суши и гунканы</span>
+              <div class="photo"><img src="./image/category/004.png" alt=""></div>
+            </a>
+            <a class="category_column_item h-50">
+              <span class="pl-50px">Напитки</span>
+              <div class="photo"><img class="border-bottom-right-radius-20px j-c-e" style="float:right;" src="./image/category/007.png" alt=""></div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     <section data-aos="fade-up" id="delivery" class="delivery mt-50px">
