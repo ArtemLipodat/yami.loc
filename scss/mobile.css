@@ -1,5 +1,110 @@
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  .container {
+    padding: 0 10px;
+  }
   .m-column {
     flex-direction: column;
+  }
+  .header svg {
+    width: 30px;
+    height: 30px;
+  }
+  .header_logo a {
+    display: flex;
+    justify-content: center;
+  }
+  .header_logo img {
+    width: 70%;
+  }
+  .vk_testimonials_item {
+    width: 100%;
+  }
+  .good_detail_photo img {
+    width: 100%;
+  }
+  .good_detail_info {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .good_detail_info .name {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .good_detail_info .weight {
+    font-size: 16px;
+  }
+  .good_detail_info .consist span {
+    font-size: 16px;
+  }
+  .good_detail_info .consist div {
+    font-size: 16px;
+  }
+  .good_detail_info .kbju_item span {
+    font-size: 16px;
+  }
+  .good_detail_info .kbju_item div {
+    font-size: 16px;
+  }
+  .good_detail .quantity span {
+    font-size: 16px;
+  }
+  .good_detail .quantity div {
+    font-size: 16px;
+  }
+  .good_detail .quantity button {
+    font-size: 16px;
+  }
+  .category_item span {
+    font-size: 16px;
+  }
+  .category_column_item span {
+    font-size: 16px;
+  }
+  .category_column_item_f span {
+    font-size: 16px;
+  }
+  .shop-cart-item .name {
+    font-size: 16px;
+  }
+  .shop-cart-item .photo img {
+    width: 50px;
+  }
+  .shop-cart-item .quantity div {
+    font-size: 16px;
+  }
+  .shop-cart-item .quantity button {
+    font-size: 16px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer_phone_tel a {
+    font-size: 14px;
+  }
+  .footer .phone_icon svg {
+    width: 30px;
+  }
+  .footer_copyright {
+    margin-top: 5px;
+  }
+  .footer_copyright span {
+    font-size: 12px;
+  }
+  .footer_menu_link a {
+    font-size: 14px;
+  }
+  .drop_menu {
+    padding: 20px 30px;
+  }
+  .drop_menu span {
+    font-size: 30px;
+  }
+  .drop_menu a {
+    font-size: 21px;
+  }
+  .drop_menu .close svg {
+    width: 30px;
+    height: 30px;
   }
 }/*# sourceMappingURL=mobile.css.map */

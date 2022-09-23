@@ -1,14 +1,14 @@
 <?php include_once('./template/header.php'); ?>
 
 <main id="lipodat_company">
-  <section class="slider">
-    <div class="peppermint peppermint-inactive" id="peppermint">
-      <div><img class="w-100" src="./image/slider_1.png" alt=""></div>
-      <div><img class="w-100" src="./image/slider_2.png" alt=""></div>
-      <div><img class="w-100" src="./image/slider_3.png" alt=""></div>
-    </div>
-  </section>
   <div class="container">
+    <section class="slider">
+      <div class="peppermint peppermint-inactive" id="peppermint">
+        <div><img class="w-100" src="./image/slider_1.png" alt=""></div>
+        <div><img class="w-100" src="./image/slider_2.png" alt=""></div>
+        <div><img class="w-100" src="./image/slider_3.png" alt=""></div>
+      </div>
+    </section>
     <section class="category d-flex gap-15px">
       <a class="category_item d-flex w-50">
         <div class="category_item_img w-50">
@@ -55,7 +55,7 @@
         </a>
       </div>
     </section>  
-    <section class="delivery mt-50px">
+    <section id="delivery" class="delivery mt-50px">
       <h3 class="h3">Условия доставки:</h3>
       <div class="delivery_item d-flex mt-30px">
         <div class="w-50">
@@ -66,7 +66,7 @@
         </div>
       </div>
     </section>
-    <section class="seels mt-50px">
+    <section id="seels" class="seels mt-50px">
       <h3 class="h3">Актуальные акции:</h3>
       <div class="seels_item d-flex mt-30px">
         <div class="w-50">
@@ -82,7 +82,7 @@
         <img src="./image/pizza.png" class="w-100" alt="">
       </div>
     </section>
-    <section class="advantages mt-50px">
+    <section id="advantages" class="advantages mt-50px">
       <h3 class="h3">Наши преимущества:</h3>
       <div class="advantages_item mt-30px pl-50px">
         <div class="section-p arrow">Более 4х лет работы</div>
@@ -107,7 +107,7 @@
         </div>
       </div>
     </section>
-    <section class="vk_testimonials mt-50px gap-15px d-flex">
+    <section class="vk_testimonials mt-50px gap-15px d-flex m-column">
       <div class="vk_testimonials_item">
         <div class="person d-flex">
           <div class="person-img">
@@ -153,5 +153,7 @@
     </section>
   </div>
 </main>
-
+<script>
+  var slider = Peppermint(document.getElementById('peppermint'));
+</script>
 <?php include_once('./template/footer.php'); ?>

@@ -1,5 +1,154 @@
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  .container{
+    padding: 0 10px;
+  }
   .m-column{
     flex-direction: column;
+  }
+  .header{
+    svg{
+      width: 30px;
+      height: 30px;
+    }
+    &_logo{
+      a{
+        display: flex;
+        justify-content: center;
+      }
+      img{
+        width: 70%;
+      }
+    }
+  }
+  .vk_testimonials{
+    &_item{
+      width: 100%;
+    }
+  }
+  .good_detail{
+    &_photo{
+      img{
+        width: 100%;
+      }
+    }
+    &_info{
+      width: 100%;
+      padding-bottom: 30px;
+      .name{
+        font-size: 25px;
+        margin-top: 15px;
+      }
+      .weight{
+        font-size: 16px;
+      }
+      .consist{
+        span{
+          font-size: 16px;
+        }
+        div{
+          font-size: 16px;
+        }
+      }
+      .kbju{
+        &_item{
+          span{
+            font-size: 16px;
+          }
+          div{
+            font-size: 16px;
+          }
+        }
+      }
+    }    
+    .quantity{
+      span{
+        font-size: 16px;
+      }
+      div{
+        font-size: 16px;
+      }
+      button{
+        font-size: 16px;
+      }
+    }
+  }
+  .category{
+    &_item{
+      span{
+        font-size: 16px;
+      }
+    }
+    &_column_item{
+      span{
+        font-size: 16px;
+      }
+      &_f{
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .shop-cart{
+    &-item{
+      .name{
+        font-size: 16px;
+      }
+      .photo{
+        img{
+          width: 50px;
+        }
+      }
+      .quantity{
+        div{
+          font-size: 16px;
+        }
+        button{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &_phone{
+      &_tel{
+        a{
+          font-size: 14px;
+        }
+      }
+    }
+    .phone_icon{
+      svg{
+        width: 30px;
+      }
+    }
+    &_copyright{
+      margin-top: 5px;
+      span{
+        font-size: 12px;
+      }
+    }
+    &_menu_link{
+      a{
+        font-size: 14px;
+      }
+    }
+  }
+  .drop_menu{
+    padding: 20px 30px;
+    span{
+      font-size: 30px;
+    }
+    a{
+      font-size: 21px;
+    }
+    .close{
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
 }

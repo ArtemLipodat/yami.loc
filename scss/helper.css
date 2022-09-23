@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+svg {
+  cursor: pointer;
+}
+
 #lipodat_company {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .d-flex {
@@ -44,11 +48,6 @@
   width: 33%;
 }
 
-@media (max-width: 600px) {
-  .w-100-m {
-    width: 100%;
-  }
-}
 .order-1 {
   order: 1;
 }
@@ -157,4 +156,51 @@
 }
 .addToCart svg {
   margin-left: 5px;
+}
+
+.pb-50px {
+  padding-bottom: 50px;
+}
+
+.i-block {
+  display: inline-block;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+@media (max-width: 800px) {
+  .w-100-m {
+    width: 100%;
+  }
+  .w-50-m {
+    width: 50%;
+  }
+  .gap-10px-m {
+    gap: 10px;
+  }
+  .mt-30px-m {
+    margin-top: 30px;
+  }
+  #lipodat_company {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .h3 {
+    font-size: 25px;
+  }
+  .section-p {
+    font-size: 14px;
+  }
+  .j-c-c-m {
+    justify-content: center;
+  }
+  .a-i-c-m {
+    align-items: center;
+  }
 }/*# sourceMappingURL=helper.css.map */

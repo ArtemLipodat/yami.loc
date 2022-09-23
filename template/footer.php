@@ -1,7 +1,7 @@
 <footer class="footer mt-50px">
   <div class="container">
-    <div class="d-flex">
-      <div class="w-60">
+    <div class="d-flex gap-10px-m">
+      <div class="w-60 w-50-m">
         <div class="footer_phone d-flex gap-15px">
           <div class="phone_icon">
             <svg width="87" height="80" viewBox="0 0 87 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@
           </span>
         </div>
       </div>
-      <div class="w-40">
+      <div class="w-40 w-50-m">
         <ul class="footer_menu_link">
           <li><a href="">Европейские роллы</a></li>
           <li><a href="">Горячие роллы</a></li>
@@ -33,6 +33,5 @@
   </div>
 </footer>
 </body>
-<script src="./js/peppermint.min.js"></script>
 <script src="./js/common.js"></script>
 </html>

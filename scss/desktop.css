@@ -6,23 +6,11 @@ body,
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-img, svg{
-  cursor: pointer;
-}
 
 .container {
   padding: 0 50px;
   max-width: 1440px;
   margin: 0 auto;
-}
-
-
-
-@media (max-width: 600px) {
-  .container {
-    padding: 0 10px;
-    margin: 0 auto;
-  }
 }
 
 .h-730px {
@@ -33,6 +21,10 @@ img, svg{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header svg {
+  width: 55px;
+  height: 55px;
 }
 .header_soc_icon {
   display: flex;
@@ -130,7 +122,6 @@ img, svg{
 .good_detail_info .weight {
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
   color: #000000;
 }
 .good_detail_info .consist span {
@@ -141,7 +132,6 @@ img, svg{
 .good_detail_info .consist div {
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
   color: #000000;
 }
 .good_detail_info .kbju_item span {
@@ -218,6 +208,78 @@ img, svg{
   font-weight: 600;
   font-size: 20px;
   color: #000000;
+}
+
+.shop-cart {
+  height: 100vh;
+}
+.shop-cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+.shop-cart-item .name {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.shop-cart-item .photo img {
+  width: 70px;
+}
+.shop-cart-item .quantity {
+  background: #CAD9FF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+}
+.shop-cart-item .quantity div {
+  display: inline;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.shop-cart-item .quantity button {
+  border: none;
+  background: none;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.drop_menu {
+  padding: 30px 50px;
+  background: #CAD9FF;
+  position: fixed;
+  transition: top 0.5s ease;
+  top: -200%;
+  z-index: 1;
+}
+.drop_menu span {
+  font-weight: 700;
+  font-size: 55px;
+  color: #000000;
+}
+.drop_menu a {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  text-decoration: none;
+}
+.drop_menu ul li {
+  list-style: none;
+}
+.drop_menu .volny img {
+  width: 100%;
+}
+
+.animate {
+  top: 0;
 }
 
 .footer {

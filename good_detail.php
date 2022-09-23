@@ -38,11 +38,13 @@
             </div>
           </div>
         </div>
-        <div class="quantity mt-50px">
+        <div class="d-flex j-c-c-m">
+        <div class="quantity mt-50px mt-30px-m">
           <span>В корзину</span>
           <button class="minus" id="minus">-</button>
           <div id="quantity">1</div>
           <button class="plus" id="plus">+</button>
+        </div>
         </div>
       </div>
     </div>
