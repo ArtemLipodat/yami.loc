@@ -105,7 +105,7 @@
         <div class="section-p arrow">Адекватные цены</div>
         <div class="section-p arrow">Контроль качества</div>
       </div>
-      <div class="advantages_item">
+      <div class="advantages_item advantages_item_photo">
         <div class="w-50">
           <img src="./image/advantages.png" class="w-100" alt="">
         </div>

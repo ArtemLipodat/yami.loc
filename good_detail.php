@@ -41,9 +41,10 @@
         <div class="d-flex j-c-c-m">
         <div class="quantity mt-50px mt-30px-m">
           <span>В корзину</span>
-          <button class="minus" id="minus">-</button>
+          <button class="minus" id="minus" onclick="quantityMinus()">-</button>
+          <input type="hidden" value="1" name="quantity" id="quantity_input">
           <div id="quantity">1</div>
-          <button class="plus" id="plus">+</button>
+          <button class="plus" id="plus" onclick="quantityPlus()">+</button>
         </div>
         </div>
       </div>

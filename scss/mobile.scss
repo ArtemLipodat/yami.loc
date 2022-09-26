@@ -109,6 +109,14 @@
       }
     }
   }
+  .advantages{
+    &_item{
+      &_photo{
+        display: flex;
+        justify-content: end;
+      }
+    }
+  }
   .footer{
     padding-top: 30px;
     padding-bottom: 30px;
