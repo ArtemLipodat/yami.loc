@@ -99,12 +99,22 @@
           width: 50px;
         }
       }
-      .quantity{
+      .quantity_shopCart{
+        padding: 5px 5px;
         div{
           font-size: 16px;
         }
         button{
           font-size: 16px;
+        }
+      }
+      .price{
+        font-size: 16px;
+      }
+      .delete{
+        padding: 5px;
+        svg{
+          width: 20px;
         }
       }
     }
@@ -169,6 +179,13 @@
     a{
       padding: 10px 30px;
       font-size: 16px;
+    }
+  }
+  .delivery{
+    &_btn{
+      padding: 5px 10px;
+      font-size: 14px;
+      margin-top: 20px;
     }
   }
 }

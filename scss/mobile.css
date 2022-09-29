@@ -69,11 +69,23 @@
   .shop-cart-item .photo img {
     width: 50px;
   }
-  .shop-cart-item .quantity div {
+  .shop-cart-item .quantity_shopCart {
+    padding: 5px 5px;
+  }
+  .shop-cart-item .quantity_shopCart div {
     font-size: 16px;
   }
-  .shop-cart-item .quantity button {
+  .shop-cart-item .quantity_shopCart button {
     font-size: 16px;
+  }
+  .shop-cart-item .price {
+    font-size: 16px;
+  }
+  .shop-cart-item .delete {
+    padding: 5px;
+  }
+  .shop-cart-item .delete svg {
+    width: 20px;
   }
   .advantages_item_photo {
     display: flex;
@@ -118,5 +130,10 @@
   .chekout a {
     padding: 10px 30px;
     font-size: 16px;
+  }
+  .delivery_btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=mobile.css.map */
